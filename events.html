@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<h1>Javascript html events</h1>
+<script>
+function hiThere() {
+alert('Hi there!');
+}
+</script>
+</head>
+<body>
+<button type="button"
+
+onclick="hiThere()"
+style="margin-left: 50%;">
+Click me event
+
+</button>
+
+
+<h1 onclick="changeText(this)">Click on this text!</h1>
+
+<script>
+function changeText(id) {
+  id.innerHTML = "Ooops!";
+}
+</script>
+<h1>JavaScript HTML Events</h1>
+
+<h2 onmouseover="style.color='green'"
+onmouseout="style.color='black'">
+Mouse over this text</h2>
+
+<h1 onmouseover="style.color='red'"
+onmouseout="style.color='black'">
+Mouse over this text</h1>
+
+
+
+</script>
+
+
+</body>
+</html>
